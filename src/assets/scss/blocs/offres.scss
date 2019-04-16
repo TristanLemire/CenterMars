@@ -1,8 +1,29 @@
 .offres {
   align-items: center;
+  margin-top: 50px;
   h2 {
     text-align: center;
     text-transform: uppercase;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  h2::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #bd9250;
+    position: absolute;
+    transform: translate(-650%, 600%);
+  }
+  h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #bd9250;
+    position: absolute;
+    transform: translate(600%, 600%);
   }
 }
 .offres__section {
