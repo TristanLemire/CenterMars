@@ -3,14 +3,16 @@ header {
   width: 100%;
 }
 a {
-  text-align: left;
+  text-decoration: none;
 }
 nav {
   margin-right: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 ul {
   display: flex;
-  justify-content: flex-end;
   li {
     margin-left: 20px;
   }

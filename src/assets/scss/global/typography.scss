@@ -5,12 +5,12 @@
 }
 
 .typo__hero__title__p {
-  @include typo('Noto Light',20px,white);
+  @include typo("Noto Light", 20px, white);
   letter-spacing: 5px;
 }
 
 .typo__hero__title__h1 {
-  @include typo('Noto Bold',80px,white);
+  @include typo("Noto Bold", 80px, white);
   letter-spacing: 40px;
 }
 
@@ -32,4 +32,7 @@
 
 .typo__header__ul {
   @include typo("Noto", 16px, white);
+}
+.typo__header__link {
+  @include typo("Noto", 30px, white);
 }
