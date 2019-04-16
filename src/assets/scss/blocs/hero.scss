@@ -97,6 +97,11 @@
       font-size: 20px;
       color: white;
       margin-right: 30px;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #ffc56e;
+      }
     }
   }
 

@@ -45,3 +45,24 @@
 .typo__font__p {
   @include typo("Noto", 16px, white);
 }
+
+.typo__experience__h2 {
+  @include typo("Noto Bold", 25px, #181818);
+}
+
+.typo__experience__span {
+  @include typo("Noto Bold", 36px, #181818);
+}
+
+.typo__experience__h3 {
+  @include typo("Noto", 20px, #bd9250);
+}
+
+.typo__experience__p {
+  @include typo("Noto", 18px, #181818);
+  line-height: calc(18px*1.5);
+}
+
+.typo__experience__p__span {
+  @include typo("Noto Bold", 18px, #181818);
+}
