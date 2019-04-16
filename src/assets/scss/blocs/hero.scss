@@ -51,7 +51,7 @@
         color: white;
         font-size: 16px;
         right: 15%;
-        top:50%;
+        top: 50%;
       }
     }
 
@@ -60,7 +60,7 @@
       border-right: solid 0.44px rgb(255, 255, 255);
     }
 
-    .hero__form__div:nth-child(1){
+    .hero__form__div:nth-child(1) {
       margin-left: 33px;
     }
 
@@ -105,10 +105,13 @@
   }
   .hero__nav__info--cursor {
     position: absolute;
-    top: 10;
+    top: 0px;
     background-color: white;
     height: 10px;
     width: 5px;
     border-radius: 200px / 300px;
   }
+}
+.test {
+  height: 100vh;
 }
