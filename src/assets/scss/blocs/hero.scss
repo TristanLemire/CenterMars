@@ -8,7 +8,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: linear-gradient(to bottom right,#002f4b00,#39393974);
+	background-image: linear-gradient(to bottom left,#002f4b00,#0000007a);
 	opacity: .6; 
   }
   height: 100vh;
@@ -97,6 +97,11 @@
       font-size: 20px;
       color: white;
       margin-right: 30px;
+      transition: color .2s;
+
+      &:hover {
+        color: #ffc56e;
+      }
     }
   }
 
@@ -104,11 +109,8 @@
   .scroll-downs {
     z-index: 2;
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: -695px;
-    left: 0;
-    margin: auto;
+    bottom: 0;
+    margin: inherit;
     
     width :34px;
     height: 55px;
