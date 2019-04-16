@@ -14,6 +14,22 @@
   letter-spacing: 40px;
 }
 
+.hero__form__div__number{
+  @include typo('Noto',42px,white);
+}
+
+.hero__form__div__month {
+  @include typo('Noto',15px,white);
+}
+
+.typo__form__a {
+  @include typo('Noto',15px,white);
+}
+
+.hero__form__div__h2 {
+  @include typo('Noto',13px,white);
+}
+
 .typo__header__ul {
   @include typo("Noto", 16px, white);
 }

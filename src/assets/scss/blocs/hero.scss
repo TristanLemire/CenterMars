@@ -3,15 +3,15 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .hero__title {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-45%,-50%);
+    margin-top: 262px;
+    margin-bottom: 77px;  
     text-align: center;
     color: white;
-
     p {
       margin-bottom: 25px 
     }
@@ -19,15 +19,52 @@
 
   .hero__form {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%,-75%);
     background: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
-    width: 55%;
+    width: initial;
+
+    .hero__form__div {
+      position: relative;
+      margin-top: 17px;
+      margin-bottom: 13px;
+      padding-right: 60px;
+      margin-right: 32px;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      p:nth-child(2) {
+        margin-bottom: 10px;
+      }
+
+      i {
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        right: 15%;
+        top:50%;
+      }
+    }
+
+    .hero__form__div:nth-child(1),
+    .hero__form__div:nth-child(2) {
+      border-right: solid 0.44px rgb(255, 255, 255);
+    }
+
+    .hero__form__div:nth-child(1){
+      margin-left: 33px;
+    }
+
+    a {
+      padding: 15px 45px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 8px;
+      text-decoration: none;
+      margin-right: 39px;
+    }
   }
 
   .hero__reseau {
@@ -42,4 +79,6 @@
       margin-right: 30px;
     }
   }
+
+  
 }
