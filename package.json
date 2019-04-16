@@ -1,0 +1,24 @@
+{
+  "name": "centermars",
+  "version": "1.0.0",
+  "description": "SI 3D projet groupe 3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristanLemire/CenterMars.git"
+  },
+  "author": "Julian Romana, Tristan Lemire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TristanLemire/CenterMars/issues"
+  },
+  "homepage": "https://github.com/TristanLemire/CenterMars#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.18.0"
+  }
+}
