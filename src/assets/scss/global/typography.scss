@@ -66,3 +66,21 @@
 .typo__experience__p__span {
   @include typo("Noto Bold", 18px, #181818);
 }
+
+.typo__activite__h2 {
+  @include typo("Noto Bold", 25px, #181818);
+  letter-spacing: 20px;
+}
+
+.typo__activite__h3 {
+  @include typo("Noto Bold", 20px, #BD9250);
+}
+
+.typo__activite__p {
+  @include typo("Noto", 16px, #181818);
+  line-height: calc(16px*1.5);
+}
+
+.typo__activite__a {
+  @include typo("Noto", 15px, white);
+}
