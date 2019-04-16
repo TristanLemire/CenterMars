@@ -1,4 +1,3 @@
-
 @mixin typo($font, $size, $color) {
   font-family: $font;
   font-size: $size;
@@ -13,4 +12,8 @@
 .typo__hero__title__h1 {
   @include typo('Noto Bold',80px,white);
   letter-spacing: 40px;
+}
+
+.typo__header__ul {
+  @include typo("Noto", 16px, white);
 }
