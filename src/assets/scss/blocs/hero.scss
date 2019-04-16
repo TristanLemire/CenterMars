@@ -3,4 +3,39 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
+
+  .hero__title {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-45%,-50%);
+    text-align: center;
+    color: white;
+
+    p {
+      margin-bottom: 25px 
+    }
+  }
+
+  .hero__form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    width: 55%;
+  }
+
+  .hero__reseau {
+    position: absolute;
+    display: flex;
+    bottom: 41px;
+    right: 17px;
+
+    i {
+      font-size: 20px;
+      color: white;
+      margin-right: 30px;
+    }
+  }
 }
