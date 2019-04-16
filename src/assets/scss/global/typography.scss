@@ -20,3 +20,6 @@
 .typo__header__link {
   @include typo("Noto", 30px, white);
 }
+.typo__font__p {
+  @include typo("Noto", 16px, white);
+}
