@@ -1,6 +1,16 @@
 .hero {
-  background: url("../img/background1.jpg") no-repeat;
+  background: url("../img/background1.png") no-repeat;
   background-size: cover;
+  &:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b00,#39393974);
+	opacity: .6; 
+  }
   height: 100vh;
   width: 100%;
   display: flex;
@@ -8,26 +18,22 @@
   align-items: center;
 
   .hero__title {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-45%, -50%);
+    z-index: 2;
+    margin-top: 262px;
     text-align: center;
     color: white;
+    margin-bottom: 8vh;
     p {
       margin-bottom: 25px;
     }
   }
 
   .hero__form {
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -75%);
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.365);
     border-radius: 8px;
     width: initial;
 
@@ -37,6 +43,7 @@
       margin-bottom: 13px;
       padding-right: 60px;
       margin-right: 32px;
+      cursor: pointer;
 
       h2 {
         margin-bottom: 20px;
@@ -70,23 +77,69 @@
       border-radius: 8px;
       text-decoration: none;
       margin-right: 39px;
+      transition: background .2s;
+    }
+
+    a:hover {
+      background: #bd9250;
     }
   }
 
   .hero__reseau {
+    z-index: 2;
     position: absolute;
     display: flex;
     bottom: 41px;
     right: 17px;
 
     i {
+      cursor: pointer;
       font-size: 20px;
       color: white;
       margin-right: 30px;
     }
   }
+
+
+  .scroll-downs {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: -695px;
+    left: 0;
+    margin: auto;
+    
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 8px 10px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
 }
 .hero__nav {
+  z-index: 2;
   position: fixed;
   display: flex;
   justify-content: space-around;
