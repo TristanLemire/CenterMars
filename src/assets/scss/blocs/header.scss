@@ -1,0 +1,18 @@
+header {
+  position: fixed;
+  width: 100%;
+}
+a {
+  text-align: left;
+}
+nav {
+  margin-right: 20px;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  li {
+    color: white;
+    margin-left: 20px;
+  }
+}
