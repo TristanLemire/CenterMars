@@ -6,10 +6,11 @@
 }
 
 .typo__hero__title__p {
-  @include typo('Roboto Light',20px,white);
+  @include typo('Noto Light',20px,white);
+  letter-spacing: 5px;
 }
 
 .typo__hero__title__h1 {
-  @include typo('Roboto Light',80px,white);
+  @include typo('Noto Bold',80px,white);
   letter-spacing: 40px;
 }
