@@ -33,13 +33,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8bb;
     width: 300px;
     height: 479px;
     border-radius: 8px;
+    .offres__description__text {
+      margin-left: 20px;
+    }
+    .offres__description__button {
+      margin-left: 25%;
+      margin-bottom: 30px;
+    }
     button {
       border: 1px solid #bd9250;
-      background-color: #f8f8f8;
+      background-color: #f8f8f8bb;
       border-radius: 5px;
       width: 150px;
       height: 45px;
