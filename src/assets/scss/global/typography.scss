@@ -17,23 +17,23 @@
 
 .typo__hero__p {
   @include typo("Noto Bold", 14px, white);
-  transform: translate(-245px,-10px );
+  transform: translate(-245px, -10px);
 }
 
-.hero__form__div__number{
-  @include typo('Noto',42px,white);
+.hero__form__div__number {
+  @include typo("Noto", 42px, white);
 }
 
 .hero__form__div__month {
-  @include typo('Noto',15px,white);
+  @include typo("Noto", 15px, white);
 }
 
 .typo__form__a {
-  @include typo('Noto',15px,white);
+  @include typo("Noto", 15px, white);
 }
 
 .hero__form__div__h2 {
-  @include typo('Noto',13px,white);
+  @include typo("Noto", 13px, white);
 }
 
 .typo__header__ul {
@@ -60,7 +60,7 @@
 
 .typo__experience__p {
   @include typo("Noto", 18px, #181818);
-  line-height: calc(18px*1.5);
+  line-height: calc(18px * 1.5);
 }
 
 .typo__experience__p__span {
@@ -73,14 +73,30 @@
 }
 
 .typo__activite__h3 {
-  @include typo("Noto Bold", 20px, #BD9250);
+  @include typo("Noto Bold", 20px, #bd9250);
 }
 
 .typo__activite__p {
   @include typo("Noto", 16px, #181818);
-  line-height: calc(16px*1.5);
+  line-height: calc(16px * 1.5);
 }
 
 .typo__activite__a {
   @include typo("Noto", 15px, white);
+}
+.typo__offres__h2 {
+  @include typo("Noto Bold", 25px, #181818);
+  letter-spacing: 20px;
+}
+.typo__offres__h3 {
+  @include typo("Noto Bold", 20px, #bd9250);
+}
+.typo__offres__p {
+  @include typo("Noto", 16px, #181818);
+}
+.typo__offres__time {
+  @include typo("Noto Bold", 16px, #181818);
+}
+.typo__offres__button {
+  @include typo("Noto Light", 20px, #bd9250);
 }

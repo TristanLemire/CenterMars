@@ -1,0 +1,38 @@
+.offres {
+  align-items: center;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+.offres__section {
+  display: flex;
+  justify-content: space-around;
+  .offres__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    width: 300px;
+    height: 479px;
+    border-radius: 8px;
+    button {
+      border: 1px solid #bd9250;
+      background-color: #f8f8f8;
+      border-radius: 5px;
+      width: 150px;
+      height: 45px;
+      &:hover {
+        animation: hover 0.3s ease-in-out forwards;
+      }
+    }
+  }
+}
+@keyframes hover {
+  0% {
+  }
+  100% {
+    color: white;
+    background-color: #bd9250;
+  }
+}
