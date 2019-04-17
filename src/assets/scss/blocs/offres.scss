@@ -39,6 +39,7 @@
     border-radius: 8px;
     .offres__description__text {
       margin-left: 20px;
+      margin-right: 20px;
     }
     .offres__description__button {
       margin-left: 25%;
@@ -46,12 +47,13 @@
     }
     button {
       border: 1px solid #bd9250;
-      background-color: #f8f8f8bb;
       border-radius: 5px;
       width: 150px;
       height: 45px;
+      transition: background .3s, color .3s;
       &:hover {
-        animation: hover 0.3s ease-in-out forwards;
+        background: #bd9250;
+        color: white;
       }
     }
   }
