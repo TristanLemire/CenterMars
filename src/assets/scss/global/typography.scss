@@ -67,27 +67,7 @@
   @include typo("Noto Bold", 18px, #181818);
 }
 
-.typo__activite__h2 {
-  @include typo("Noto Bold", 25px, #181818);
-  letter-spacing: 10px;
-}
 
-.typo__activite__h3 {
-  @include typo("Noto Bold", 18px, white);
-}
-
-.typo__activite__p {
-  @include typo("Noto Light", 16px, white);
-  line-height: calc(16px * 1.5);
-}
-
-.typo__activite__a {
-  @include typo("Noto", 15px, white);
-}
-
-.typo__activite__a {
-  @include typo("Noto", 15px, white);
-}
 .typo__offres__h2 {
   @include typo("Noto Bold", 25px, #181818);
   letter-spacing: 10px;
@@ -107,4 +87,27 @@
 }
 footer li {
   @include typo("Noto", 16px, white);
+}
+
+.typo__activite__h2 {
+  @include typo("Noto Bold", 20px, #181818);
+  letter-spacing: 5px;
+}
+
+.typo__activite__new {
+  @include typo("Noto", 10px, white);
+}
+
+.typo__activite__h3 {
+  @include typo("Noto Bold", 35px, #bd9250);
+  line-height: calc(35px*1.5);
+}
+
+.typo__activite__p {
+  @include typo("Noto", 18px, #181818);
+  line-height: calc(18px*1.5);
+}
+
+.typo__activite__a {
+  @include typo("Noto", 15px, #bd9250);
 }
