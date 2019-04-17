@@ -1,9 +1,11 @@
 .activite {
   display: flex;  
   position: relative;
+  height: 90vh;
   img {
     width: 50%;
     object-fit: cover;
+    height: 90vh;
   }
 
   .activite__container {

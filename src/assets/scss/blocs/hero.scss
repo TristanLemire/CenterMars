@@ -85,26 +85,6 @@
     }
   }
 
-  .hero__reseau {
-    z-index: 2;
-    position: absolute;
-    display: flex;
-    bottom: 41px;
-    right: 17px;
-
-    i {
-      cursor: pointer;
-      font-size: 20px;
-      color: white;
-      margin-right: 30px;
-      transition: color 0.2s;
-
-      &:hover {
-        color: #ffc56e;
-      }
-    }
-  }
-
   .scroll-downs {
     z-index: 2;
     position: absolute;
