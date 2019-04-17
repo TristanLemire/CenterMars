@@ -4,7 +4,6 @@ footer {
   height: 100px;
   display: flex;
   align-items: center;
-  margin-top: 60px;
   .footer__mainList {
     display: flex;
     justify-content: space-around;
@@ -22,5 +21,5 @@ footer {
 }
 .footer__secondaryList--socials {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }

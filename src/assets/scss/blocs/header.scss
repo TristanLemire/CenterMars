@@ -2,7 +2,7 @@ header {
   z-index: 3;
   position: fixed;
   width: 100vw;
-  height: 100px;
+  height: 75px;
   transition: background-color 0.3s;
   a {
     text-decoration: none;
@@ -10,13 +10,14 @@ header {
   }
   nav {
     margin-right: 25px;
-    margin-top: 34px;
+    margin-top: 22px;
     display: flex;
     justify-content: space-between;
   }
   ul {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
     li {
       cursor: pointer;
       margin-left: 20px;
@@ -26,6 +27,7 @@ header {
       padding: 8px 21px;
       border-radius: 5px;
       transition: background-color 0.2s;
+      border: 1px solid white;
 
       &:hover {
         background-color: #8f6e3d;
