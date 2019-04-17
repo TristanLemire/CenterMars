@@ -18,6 +18,9 @@ footer {
 .footer__secondaryList {
   display: flex;
   flex-direction: column;
+  li {
+    margin-bottom: 5px;
+  }
 }
 .footer__secondaryList--socials {
   flex-direction: row;
