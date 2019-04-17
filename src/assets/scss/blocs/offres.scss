@@ -50,19 +50,11 @@
       border-radius: 5px;
       width: 150px;
       height: 45px;
-      transition: background .3s, color .3s;
+      transition: background 0.3s, color 0.3s;
       &:hover {
         background: #bd9250;
         color: white;
       }
     }
-  }
-}
-@keyframes hover {
-  0% {
-  }
-  100% {
-    color: white;
-    background-color: #bd9250;
   }
 }
