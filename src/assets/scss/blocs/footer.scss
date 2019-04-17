@@ -1,0 +1,25 @@
+footer {
+  width: 100%;
+  background-color: #bd9250;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  .footer__mainList {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  li {
+    i {
+      margin-top: 5px;
+    }
+  }
+}
+.footer__secondaryList {
+  display: flex;
+  flex-direction: column;
+}
+.footer__secondaryList--socials {
+  flex-direction: row;
+  justify-content: space-between;
+}
