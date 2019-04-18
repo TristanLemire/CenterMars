@@ -6,11 +6,11 @@
 .presentation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 60vh;
   width: 100vw;
   img {
     width: 540px;
-    height: 354px;
   }
 }
 .presentation__text {
@@ -21,7 +21,15 @@
   height: 55vh;
   width: 50%;
   h2 {
-    margin-left: 70px;
+    margin-left: 60px;
+    &::before {
+      content: "";
+      width: 40px;
+      height: 2px;
+      background-color: #bd9250;
+      position: absolute;
+      transform: translate(-140%, 450%);
+    }
   }
   .presentation__text__button {
     button {
@@ -34,5 +42,29 @@
       margin-right: 20px;
       cursor: pointer;
     }
+  }
+  span {
+    color: #bd9250;
+  }
+}
+
+.certification {
+  height: 100vh;
+  width: 100vw;
+  img {
+    width: 100%;
+  }
+  .certifications__pictos {
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    margin-top: 50px;
+    padding-bottom: 70px;
+  }
+  .certifications__pictos__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
 }

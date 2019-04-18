@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   background-color: #bd9250;
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   .footer__mainList {
@@ -19,7 +19,7 @@ footer {
   display: flex;
   flex-direction: column;
   li {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
 }
 .footer__secondaryList--socials {
