@@ -1,3 +1,5 @@
+
+
 let header = document.querySelector("header");
 let headerButton = document.querySelector("header li:nth-child(4)");
 window.addEventListener("scroll", () => {
@@ -9,3 +11,5 @@ window.addEventListener("scroll", () => {
     headerButton.classList.remove("is-white");
   }
 });
+import Rellax from 'rellax';
+var rellax = new Rellax('.rellax');
