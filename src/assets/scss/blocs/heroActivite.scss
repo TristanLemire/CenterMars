@@ -138,4 +138,17 @@
       opacity: 0;
     }
   }
+
+  .hero__3d {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 44px;
+    text-decoration: none;
+  
+    p{
+      margin-left: 18px;
+    }
+  }
 }

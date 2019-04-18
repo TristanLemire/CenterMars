@@ -38,6 +38,12 @@
 .typo__header__ul {
   @include typo("Noto", 13px, white);
 }
+
+.typo__header__ul__selected {
+  @include typo("Noto", 13px, white);
+  border-bottom: solid 1px white;
+}
+
 .typo__header__link {
   @include typo("Noto", 30px, white);
 }
@@ -151,4 +157,7 @@ footer li {
 }
 .typo__experiences__time {
   @include typo("Noto", 13px, #181818);
+}
+.typo__hero__3d {
+  @include typo("Noto Bold", 18px, white);
 }
