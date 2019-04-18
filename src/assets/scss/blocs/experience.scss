@@ -5,7 +5,7 @@
   overflow: hidden;
   background: #f8f8f8;
   position: relative;
-  transition: opacity .5s, transform .5s;
+  transition: opacity 0.5s, transform 0.5s;
   div {
     margin-left: 116px;
     display: flex;
@@ -14,8 +14,7 @@
 
     h2 {
       margin-bottom: 52px;
-      transform: translatex(75px);
-      transform: translateX(-500px);
+      margin-left: 70px;
       &::before {
         content: "";
         width: 50px;
@@ -41,5 +40,19 @@
     right: -15px;
     top: 30px;
     height: 469px;
+  }
+}
+
+.is-translating {
+  animation: translate 1s forwards;
+}
+@keyframes translate {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
