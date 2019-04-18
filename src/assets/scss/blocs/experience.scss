@@ -4,10 +4,12 @@
   align-items: center;
   overflow: hidden;
   background: #f8f8f8;
+  position: relative;
   div {
     margin-left: 116px;
     display: flex;
     flex-direction: column;
+    width: 80%;
 
     h2 {
       margin-bottom: 52px;
@@ -34,7 +36,9 @@
   }
 
   img {
+    position: absolute;
+    right: -15px;
+    top: 30px;
     height: 469px;
-    transform: translateX(15px);
   }
 }

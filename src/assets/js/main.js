@@ -10,7 +10,9 @@ window.addEventListener("scroll", () => {
     header.classList.remove("is-visible");
     headerButton.classList.remove("is-white");
   }
-  if (window.pageYOffset > 340) {
+  if (window.pageYOffset > 280) {
     h2.classList.add("is-translating");
   }
 });
+import Rellax from "rellax";
+var rellax = new Rellax(".rellax");
