@@ -1,0 +1,141 @@
+.heroActivite {
+  background: url("../img/act_bg.jpg") no-repeat;
+  background-size: cover;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b00, #39393974);
+    opacity: 0.6;
+  }
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .heroActivite__title {
+    position: relative;
+    z-index: 2;
+    margin-top: 325px;
+    text-align: center;
+    color: white;
+    margin-bottom: 8vh;
+    p {
+      position: absolute;
+      margin-bottom: 25px;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  p {
+    z-index: 2; 
+  }
+
+  .heroActivite__form {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.365);
+    border-radius: 8px;
+    width: initial;
+
+    .heroActivite__form__div {
+      position: relative;
+      margin-top: 17px;
+      margin-bottom: 13px;
+      padding-right: 60px;
+      margin-right: 32px;
+      cursor: pointer;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      p:nth-child(2) {
+        margin-bottom: 10px;
+      }
+
+      i {
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        right: 15%;
+        top: 50%;
+      }
+    }
+
+    .heroActivite__form__div:nth-child(1),
+    .heroActivite__form__div:nth-child(2) {
+      border-right: solid 0.44px rgb(255, 255, 255);
+    }
+
+    .heroActivite__form__div:nth-child(1) {
+      margin-left: 33px;
+    }
+
+    a {
+      padding: 15px 45px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 8px;
+      text-decoration: none;
+      margin-right: 39px;
+      transition: background 0.2s;
+    }
+
+    a:hover {
+      background: #bd9250;
+    }
+  }
+
+  .scroll-downs {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: -90vh;
+    left: 0;
+    margin: auto;
+
+    width: 34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 8px 10px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(15px);
+      opacity: 0;
+    }
+  }
+}
