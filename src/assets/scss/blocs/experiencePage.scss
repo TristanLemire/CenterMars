@@ -2,3 +2,37 @@
   background: url("../img/experiencebackground.png") no-repeat;
   background-size: cover;
 }
+
+.presentation {
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  width: 100vw;
+  img {
+    width: 540px;
+    height: 354px;
+  }
+}
+.presentation__text {
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 55vh;
+  width: 50%;
+  h2 {
+    margin-left: 70px;
+  }
+  .presentation__text__button {
+    button {
+      border: 1px solid #bd9250;
+      border-radius: 5px;
+      width: 200px;
+      height: 45px;
+      transition: background 0.3s, color 0.3s;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}
