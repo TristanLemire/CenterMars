@@ -139,3 +139,13 @@ footer li {
 .typo__experiences__h3 {
   @include typo("Noto Bold", 16px, #181818);
 }
+
+.typo__heroheroImmersion__a {
+  @include typo("Noto", 19px, white);
+  line-height: calc(20px * 1.5);
+}
+
+.typo__page3d__p {
+  @include typo("Noto Light", 16px, white);
+  line-height: calc(20px * 1.5);
+}
