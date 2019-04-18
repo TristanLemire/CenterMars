@@ -123,3 +123,9 @@ footer li {
   @include typo("Noto", 18px, #181818);
   line-height: calc(18px * 1.5);
 }
+.typo__experience__p1 {
+  @include typo("Noto", 16px, #181818);
+}
+.typo__experience__p2 {
+  @include typo("Noto Bold", 16px, #181818);
+}
