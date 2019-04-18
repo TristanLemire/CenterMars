@@ -84,4 +84,18 @@
       opacity: 0;
     }
   }
+
+  span {
+    margin-top: 122px;
+    text-decoration: none;
+    background: #ffffff7c;
+    border-radius: 5px;
+    padding: 8px 20px;
+    z-index: 2;
+    transition: background .2s;
+    cursor: pointer;
+    &:hover {
+      background: #bd9250;
+    }
+  }
 }

@@ -128,3 +128,8 @@ footer li {
   @include typo("Noto", 20px, white);
   line-height: calc(20px * 1.5);
 }
+
+.typo__heroheroImmersion__a {
+  @include typo("Noto", 19px, white);
+  line-height: calc(20px * 1.5);
+}
