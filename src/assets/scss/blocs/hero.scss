@@ -18,13 +18,18 @@
   align-items: center;
 
   .hero__title {
+    position: relative;
     z-index: 2;
-    margin-top: 262px;
+    margin-top: 325px;
     text-align: center;
     color: white;
     margin-bottom: 8vh;
     p {
+      position: absolute;
       margin-bottom: 25px;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 
