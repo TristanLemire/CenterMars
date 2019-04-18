@@ -1,5 +1,5 @@
-.heroActivite {
-  background: url("../img/act_bg.jpg") no-repeat;
+.heroImmersion {
+  background: url("../img/immersion_gb.jpg") no-repeat;
   background-size: cover;
   &:before {
     content: "";
@@ -8,7 +8,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to top, #002f4b00, #1d1d1d);
+    background-image: linear-gradient(to bottom right, #002f4b00, #39393974);
     opacity: 0.6;
   }
   height: 100vh;
@@ -16,14 +16,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 
-  .heroActivite__title {
+  .heroImmersion__title {
     position: relative;
     z-index: 2;
     margin-top: 325px;
     text-align: center;
     color: white;
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
     p {
       position: absolute;
       margin-bottom: 25px;
@@ -35,65 +36,10 @@
 
   p {
     z-index: 2; 
+    width: 50%;
+    text-align: center;
   }
-
-  .heroActivite__form {
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.365);
-    border-radius: 8px;
-    width: initial;
-
-    .heroActivite__form__div {
-      position: relative;
-      margin-top: 17px;
-      margin-bottom: 13px;
-      padding-right: 60px;
-      margin-right: 32px;
-      cursor: pointer;
-
-      h2 {
-        margin-bottom: 20px;
-      }
-
-      p:nth-child(2) {
-        margin-bottom: 10px;
-      }
-
-      i {
-        position: absolute;
-        color: white;
-        font-size: 16px;
-        right: 15%;
-        top: 50%;
-      }
-    }
-
-    .heroActivite__form__div:nth-child(1),
-    .heroActivite__form__div:nth-child(2) {
-      border-right: solid 0.44px rgb(255, 255, 255);
-    }
-
-    .heroActivite__form__div:nth-child(1) {
-      margin-left: 33px;
-    }
-
-    a {
-      padding: 15px 45px;
-      background: rgba(255, 255, 255, 0.3);
-      border-radius: 8px;
-      text-decoration: none;
-      margin-right: 39px;
-      transition: background 0.2s;
-    }
-
-    a:hover {
-      background: #bd9250;
-    }
-  }
-
+  
   .scroll-downs {
     z-index: 2;
     position: absolute;
