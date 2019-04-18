@@ -1,7 +1,7 @@
 .offres {
   align-items: center;
   background-color: white;
-  height: 80vh;
+  height: 90vh;
   h2 {
     text-align: center;
     text-transform: uppercase;
@@ -32,16 +32,16 @@
 .offres__section {
   display: flex;
   justify-content: space-around;
-  
+
   .offres__description {
     display: flex;
     flex-direction: column;
-    background-color: #F8F8F8;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
     width: 300px;
-    height: 58vh;
+    height: 65vh;
     border-radius: 10px;
-    position: relative;
-
     img {
       width: 100%;
       height: 210px;
@@ -49,35 +49,20 @@
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
     }
-
-    h3 {
-      margin-bottom: 17px;
-      margin-top: 23px;
-
-    }
-
-    p {
-      margin-bottom: 44px;
-    }
-
     .offres__description__text {
       margin-left: 20px;
       margin-right: 20px;
+      align-items: flex-start;
     }
     .offres__description__button {
-      margin-left: 25%;
-      margin-bottom: 30px;
-    }
-    button {
-      position: absolute;
       border: 1px solid #bd9250;
       border-radius: 5px;
       width: 150px;
       height: 45px;
-      background-color: #F8F8F8;
+      background-color: #f8f8f8;
       transition: background 0.3s, color 0.3s;
+      margin-bottom: 20px;
       cursor: pointer;
-      bottom: 5px;
       &:hover {
         background: #bd9250;
         color: white;

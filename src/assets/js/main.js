@@ -1,8 +1,6 @@
 let header = document.querySelector("header");
 let headerButton = document.querySelector("header li:nth-child(4)");
-console.log(headerButton);
 window.addEventListener("scroll", () => {
-  console.log(window.pageYOffset);
   if (window.pageYOffset > 754) {
     header.classList.add("is-visible");
     headerButton.classList.add("is-white");
