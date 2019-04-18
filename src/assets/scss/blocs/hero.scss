@@ -34,7 +34,7 @@
   }
 
   p {
-    z-index: 2; 
+    z-index: 2;
   }
 
   .hero__form {
@@ -145,8 +145,21 @@
     bottom: 20px;
     left: 44px;
     text-decoration: none;
-    p{
+    p {
       margin-left: 18px;
     }
+  }
+}
+.is-translating {
+  animation: translate 1s forwards;
+}
+@keyframes translate {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }

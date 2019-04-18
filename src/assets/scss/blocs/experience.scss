@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: #F8F8F8;
+  background: #f8f8f8;
   div {
     margin-left: 116px;
     display: flex;
@@ -12,6 +12,7 @@
     h2 {
       margin-bottom: 52px;
       transform: translatex(75px);
+      transform: translateX(-500px);
       &::before {
         content: "";
         width: 50px;
@@ -32,7 +33,7 @@
     }
   }
 
-  img{
+  img {
     height: 469px;
     transform: translateX(15px);
   }
