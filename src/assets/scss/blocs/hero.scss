@@ -28,6 +28,10 @@
     }
   }
 
+  p {
+    z-index: 2; 
+  }
+
   .hero__form {
     z-index: 2;
     display: flex;

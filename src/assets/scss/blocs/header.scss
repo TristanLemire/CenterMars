@@ -2,7 +2,7 @@ header {
   z-index: 3;
   position: fixed;
   width: 100vw;
-  height: 75px;
+  height: 60px;
   transition: background-color 0.3s;
   a {
     text-decoration: none;
@@ -10,7 +10,7 @@ header {
   }
   nav {
     margin-right: 25px;
-    margin-top: 22px;
+    margin-top: 16px;
     display: flex;
     justify-content: space-between;
   }
@@ -21,6 +21,10 @@ header {
     li {
       cursor: pointer;
       margin-left: 20px;
+      a {
+        color: white;
+        margin: 0;
+      }
     }
     li:nth-child(4) {
       background-color: #bd9250;

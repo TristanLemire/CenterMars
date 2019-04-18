@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
+  background: #F8F8F8;
   div {
     margin-left: 116px;
     display: flex;
@@ -10,10 +11,20 @@
 
     h2 {
       margin-bottom: 52px;
+      transform: translatex(75px);
+      &::before {
+        content: "";
+        width: 50px;
+        height: 2px;
+        background-color: #bd9250;
+        position: absolute;
+        transform: translate(-150%, 450%);
+      }
     }
 
     h3 {
       margin-bottom: 45px;
+      width: 85%;
     }
 
     p {

@@ -16,8 +16,7 @@
 }
 
 .typo__hero__p {
-  @include typo("Noto Bold", 14px, white);
-  transform: translate(-232px, -10px);
+  @include typo("Noto Bold", 20px, white);
 }
 
 .hero__form__div__number {
@@ -47,7 +46,7 @@
 }
 
 .typo__experience__h2 {
-  @include typo("Noto Bold", 25px, #181818);
+  @include typo("Noto Bold", 20px, #181818);
 }
 
 .typo__experience__span {
@@ -55,7 +54,7 @@
 }
 
 .typo__experience__h3 {
-  @include typo("Noto", 20px, #bd9250);
+  @include typo("Noto", 35px, #bd9250);
 }
 
 .typo__experience__p {
@@ -64,11 +63,11 @@
 }
 
 .typo__experience__p__span {
-  @include typo("Noto Bold", 18px, #181818);
+  @include typo("Noto Bold", 18px, #bd9250);
 }
 
 .typo__offres__h2 {
-  @include typo("Noto Bold", 25px, white);
+  @include typo("Noto Bold", 20px, #181818);
   letter-spacing: 10px;
 }
 .typo__offres__h3 {
