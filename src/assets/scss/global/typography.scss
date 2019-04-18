@@ -149,3 +149,6 @@ footer li {
   @include typo("Noto Light", 16px, white);
   line-height: calc(20px * 1.5);
 }
+.typo__experiences__time {
+  @include typo("Noto", 13px, #181818);
+}
