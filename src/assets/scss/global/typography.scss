@@ -102,10 +102,24 @@ footer li {
 }
 
 .typo__activite__p {
-  @include typo("Noto", 18px, #181818);
+  @include typo("Noto", 16px, #181818);
   line-height: calc(18px * 1.5);
 }
 
 .typo__activite__a {
   @include typo("Noto", 15px, #bd9250);
+}
+
+.typo__actDescription__h2 {
+  @include typo("Noto Bold", 20px, #181818);
+}
+
+.typo__actDescription__span {
+  @include typo("Noto Bold", 18px, #181818);
+  line-height: calc(18px * 1.5);
+}
+
+.typo__actDescription__p {
+  @include typo("Noto", 18px, #181818);
+  line-height: calc(18px * 1.5);
 }
