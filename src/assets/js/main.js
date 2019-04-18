@@ -29,6 +29,6 @@ let waypoint = new Waypoint({
     handler: function( direction ) {
     element.classList.add( 'is-visible2' );
     },
-    offset: '70%'
+    offset: '65%'
 });
 });
