@@ -5,6 +5,7 @@
   overflow: hidden;
   background: #F8F8F8;
   position: relative;
+  transition: opacity .5s, transform .5s;
   div {
     margin-left: 116px;
     display: flex;

@@ -2,6 +2,7 @@
   align-items: center;
   background-color: white;
   height: 90vh;
+  transition: opacity .5s, transform .5s;
   h2 {
     text-align: center;
     text-transform: uppercase;

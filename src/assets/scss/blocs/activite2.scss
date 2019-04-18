@@ -3,6 +3,7 @@
   position: relative;
   height: 90vh;
   background-color: #F8F8F8;
+  transition: opacity .5s, transform .5s;
   img {
     width: 50%;
     object-fit: cover;
