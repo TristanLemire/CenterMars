@@ -161,3 +161,6 @@ footer li {
 .typo__hero__3d {
   @include typo("Noto Bold", 18px, white);
 }
+.typo__page3d__h2 {
+  @include typo("Noto", 25px, white);
+}
